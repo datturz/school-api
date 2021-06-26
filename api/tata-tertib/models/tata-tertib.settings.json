@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "tata_tertibs",
+  "info": {
+    "name": "Tata Tertib"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

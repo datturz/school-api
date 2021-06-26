@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "schools",
+  "info": {
+    "name": "school",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "street": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

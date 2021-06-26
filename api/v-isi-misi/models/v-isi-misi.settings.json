@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "v_isi_misis",
+  "info": {
+    "name": "VIsi Misi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

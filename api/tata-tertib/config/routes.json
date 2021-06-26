@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tata-tertib",
+      "handler": "tata-tertib.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tata-tertib",
+      "handler": "tata-tertib.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tata-tertib",
+      "handler": "tata-tertib.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

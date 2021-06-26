@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/v-isi-misi",
+      "handler": "v-isi-misi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/v-isi-misi",
+      "handler": "v-isi-misi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/v-isi-misi",
+      "handler": "v-isi-misi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
